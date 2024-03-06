@@ -110,6 +110,9 @@ nav li a {
     border: none;
     margin-right: 24px;
     color: #FFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
 }
 
 .input-div .change-input {
@@ -427,3 +430,48 @@ nav li a {
     padding-bottom: 14px;
 
 }
+
+footer{
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-bottom: 110px;
+}
+
+.footer-logo{
+    display: flex;
+    padding-top: 110px;
+    padding-left: 600px;
+ 
+}
+
+.footer-logo img{
+    width: 48px;
+    height: 56px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.footer-detail{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width:576px) {
+    .input-div input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ 
+
+   
+}
+
